@@ -1,0 +1,70 @@
+/* static/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.words_list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.words_list th, .words_list td {
+    padding: 10px;
+    text-align: left;
+}
+.words_list th {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+}
+
+.words_list td {
+    font-family: "Arial", sans-serif;
+}

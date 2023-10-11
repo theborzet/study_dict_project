@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'vendor/css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Спасибо, что используете проект LinguaLex</h1>
+    </header>
+    {% block nav %}
+    {% endblock %}
+    <main>
+        {% block main_content %} {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 LinguaLex</p>
+    </footer>
+</body>
+</html>

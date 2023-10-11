@@ -1,0 +1,14 @@
+{% extends 'mydictionary/base.html' %}
+
+{% block nav %}
+    <nav>
+        <ul>
+            <li><a href="{% url 'words_list'%}">Перейти к словарю</a></li>
+            <li><a href="{% url 'add_word'%}">Редактирование словаря</a></li>
+<!--            <li><a href="/contact/">Контакты</a></li>-->
+        </ul>
+    </nav>
+{% endblock %}
+{% block main_content %}
+    <p>Добро пожаловать в наш словарь!</p>
+{% endblock %}
