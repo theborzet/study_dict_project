@@ -1,7 +1,0 @@
-English: man, Translate: мужчина
-English: woman, Translate: женщина
-English: ball, Translate: мяч
-English: swim, Translate: плавать
-English: night, Translate: ночь
-English: boy, Translate: мальчик
-English: read, Translate: читать
