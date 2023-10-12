@@ -22,7 +22,7 @@ class WordCreateView(TitleMixin, SuccessMessageMixin, CreateView):
     template_name = 'mydictionary/create.html'
     form_class = WordCreateForm
     success_message = 'Слово добавлено!'
-    success_url = reverse_lazy('words_list')
+    success_url = reverse_lazy('index')
 
 
 
