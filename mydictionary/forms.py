@@ -7,7 +7,7 @@ class WordCreateForm(forms.ModelForm):
         'class': "form-control py-2",
         'placeholder': "Введите слова на английском",
     }))
-    translate = forms.CharField( label='Русский', widget=forms.TextInput(attrs={
+    translate = forms.CharField(label='Русский', widget=forms.TextInput(attrs={
         'class': "form-control py-2",
         'placeholder': "Введите перевод",
     }))

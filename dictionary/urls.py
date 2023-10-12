@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mydictionary.views import IndexView, WordListView, WordCreateView
+from mydictionary.views import IndexView, WordListView, WordCreateView, add_file
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +24,5 @@ urlpatterns = [
     path('home/', IndexView.as_view(), name='index'),
     path('words_list/', WordListView.as_view(), name='words_list'),
     path('add_word/', WordCreateView.as_view(), name='add_word'),
+    path('add_file/', add_file, name='add_file'),
 ]
